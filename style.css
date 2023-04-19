@@ -20,7 +20,7 @@
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .header {
         text-align: center;
     }
@@ -153,7 +153,8 @@ input[type="text"]:focus {
 
 /* Completed */
 .task-list#completed-tasks .task-label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through 
+    color: #888;
 }
 
 /* Edit Task */
